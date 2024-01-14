@@ -1,0 +1,37 @@
+:root{
+  --color-main-black : #3E3E3E;
+  --color-orange-main: #FE9519;
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar{
+  background-color:var(--color-main-black);
+}
+.navbar_title_txt{
+  display: block;
+  text-align: center;
+}
+
+.likelion_title{
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.kau_title{
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: lighter;
+  font-size:15px;
+}

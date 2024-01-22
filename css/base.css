@@ -17,10 +17,38 @@
 
 .navbar{
   background-color:var(--color-main-black);
+  display:flex;
+}
+.kau_likelion_logo{
+  width:40px;
+  height:40px;
+  border-radius: 8px;
+
+}
+.likelionlogo_btn{
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Gmarket Sans";
+  color: var(--color-orange-main);
+  font-size: 12px;
+}
+.homebtn_div{
+  width:50px;
+  display:block;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right:0px;
 }
 .navbar_title_txt{
   display: block;
   text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top:20px;
+  margin:auto;
 }
 
 .likelion_title{
@@ -34,4 +62,28 @@
   color:#ffffff;
   font-weight: lighter;
   font-size:15px;
+  margin-top: 0px;
+}
+
+.homework_btn{
+  width: 46px;
+  height: 46px;
+  background-color: var(--color-main-black);
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+.assginment_backpack{
+  width: 40px;
+  height: 40px;
+}
+.homework_list{
+  font-family: "Gmarket Sans";
+  color: #ffffff;
+  font-size: 12px;
+}
+.assignment_nav{
+  width:50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }

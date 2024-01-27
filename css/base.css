@@ -41,6 +41,7 @@
   flex-direction: column;
   margin-top: 10px;
   margin-right:0px;
+  margin-left:auto;
 }
 .navbar_title_txt{
   display: block;
@@ -71,19 +72,27 @@
   background-color: var(--color-main-black);
   border: 1px solid #ffffff;
   border-radius: 8px;
+  justify-content: center;
+  padding: 0px;
 }
 .assginment_backpack{
   width: 40px;
   height: 40px;
+  margin-bottom: 6px;
 }
 .homework_list{
   font-family: "Gmarket Sans";
   color: #ffffff;
   font-size: 12px;
+  text-decoration: none;
+
 }
 .assignment_nav{
   width:50px;
-  height: auto;
-  display: flex;
+  display:block;
   flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right:auto;
+  margin-left:0px;
 }
